@@ -20,13 +20,6 @@ Die App wurde als statische Web-App mit HTML, CSS und JavaScript umgesetzt. Sie 
 
 Die Daten werden lokal im Browser über `localStorage` gespeichert. Dadurch bleiben erfasste Habits auch nach dem Neuladen der Seite erhalten. Für die Demonstration können Demo-Daten geladen werden.
 
-
-## Hinweis zu GitHub Pages und Assets
-
-Die sichtbaren Logo-Grafiken sind in dieser Version zusätzlich direkt in `index.html` eingebettet. Dadurch werden Logo und Favicon auch dann angezeigt, wenn GitHub Pages Asset-Pfade sehr strikt auswertet oder einzelne Dateien nicht korrekt übertragen wurden. Der Ordner `assets/` bleibt trotzdem im Projekt enthalten, damit die Bilder weiterhin sauber dokumentiert und bei Bedarf separat austauschbar sind.
-
-Wichtig beim Hochladen auf GitHub: Der Ordner `assets` muss vollständig mitgeführt werden. GitHub Pages unterscheidet Gross- und Kleinschreibung, deshalb müssen Dateinamen exakt stimmen, z. B. `assets/logo-full.png` und nicht `Assets/Logo-Full.png`.
-
 ## Projektstruktur
 
 ```text
@@ -90,7 +83,3 @@ HabitHero ist ein MVP und keine produktive Cloud-Lösung. Die App arbeitet lokal
 ## Hinweise zur Datenspeicherung
 
 Alle Daten werden im jeweiligen Browser lokal gespeichert. Bei der Nutzung über GitHub Pages werden keine Daten an einen Server übertragen. Wird ein anderer Browser oder ein anderes Gerät verwendet, sind die lokal gespeicherten Habits dort nicht automatisch vorhanden. Für die Demonstration kann deshalb jederzeit die Funktion **Demo** genutzt werden.
-
-## Kurzfazit
-
-HabitHero erfüllt die zentralen Anforderungen des Projekts: Die App ist lauffähig, einfach testbar, visuell ansprechend und bildet die Kernfunktionen eines digitalen Habit-Trackers ab. Durch GitHub Pages ist die Anwendung ohne Installation erreichbar. Zusätzlich bleibt die technische Lösung mit HTML, CSS, JavaScript und Live Server schlank, nachvollziehbar und gut präsentierbar.
