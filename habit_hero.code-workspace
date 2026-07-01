@@ -1,0 +1,12 @@
+{
+	"folders": [
+		{
+			"name": "habit_hero",
+			"path": "."
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "habit_hero",
+		"liveServer.settings.port": 5501
+	}
+}
