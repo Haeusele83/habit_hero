@@ -20,6 +20,13 @@ Die App wurde als statische Web-App mit HTML, CSS und JavaScript umgesetzt. Sie 
 
 Die Daten werden lokal im Browser über `localStorage` gespeichert. Dadurch bleiben erfasste Habits auch nach dem Neuladen der Seite erhalten. Für die Demonstration können Demo-Daten geladen werden.
 
+
+## Hinweis zu GitHub Pages und Assets
+
+Die sichtbaren Logo-Grafiken sind in dieser Version zusätzlich direkt in `index.html` eingebettet. Dadurch werden Logo und Favicon auch dann angezeigt, wenn GitHub Pages Asset-Pfade sehr strikt auswertet oder einzelne Dateien nicht korrekt übertragen wurden. Der Ordner `assets/` bleibt trotzdem im Projekt enthalten, damit die Bilder weiterhin sauber dokumentiert und bei Bedarf separat austauschbar sind.
+
+Wichtig beim Hochladen auf GitHub: Der Ordner `assets` muss vollständig mitgeführt werden. GitHub Pages unterscheidet Gross- und Kleinschreibung, deshalb müssen Dateinamen exakt stimmen, z. B. `assets/logo-full.png` und nicht `Assets/Logo-Full.png`.
+
 ## Projektstruktur
 
 ```text
